@@ -1,11 +1,11 @@
 import React from "react";
 
-function Detalhes() {
+function Movies() {
     return (
         <div className="App">
-            <h2> Bem vindos a detalhes </h2>
+            <h2> Bem vindos a movies </h2>
         </div>
     )
 }
 
-export default Detalhes
+export default Movies

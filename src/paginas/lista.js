@@ -1,11 +1,11 @@
 import React from "react";
 
-function Home() {
+function Lista() {
     return (
         <div className="App">
-            <h2> Bem vindos</h2>
+            <h2> Bem vindo a minha listas</h2>
         </div>
     )
 }
 
-export default Home
+export default Lista

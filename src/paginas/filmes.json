@@ -1,0 +1,673 @@
+{
+    "data": {
+      "banners": [
+        {
+          "id": "f7b52384-9133-4649-a25a-f7011aead174",
+          "title": "Bem Vindos à Terra",
+          "imageCover": "/content/media/banners/bem-vindos-a-terra.jpeg",
+          "imageTitle": "/content/media/banners/bem-vindos-a-terra-titulo.png",
+          "slug": "bem-vindos-a-terra"
+        },
+        {
+          "id": "74d17ffa-34cd-49f6-a165-5db22fd3c150",
+          "title": "Dr. Estranho",
+          "imageCover": "/content/media/banners/dr-estranho.jpeg",
+          "imageTitle": "/content/media/banners/dr-estranho-titulo.png",
+          "slug": "dr-estranho"
+        },
+        {
+          "id": "42e6ce81-44e2-4f7a-b052-d567abfd09c6",
+          "title": "Homem-Aranha",
+          "imageCover": "/content/media/banners/homem-aranha.jpeg",
+          "imageTitle": "/content/media/banners/homem-aranha-titulo.png",
+          "slug": "homem-aranha"
+        },
+        {
+          "id": "f2ae10ac-262b-4e1a-94d2-c596ec6c1804",
+          "title": "Gavião Arqueiro",
+          "imageCover": "/content/media/banners/gaviao-arqueiro.jpeg",
+          "imageTitle": "/content/media/banners/gaviao-arqueiro-titulo.png",
+          "slug": "gaviao-arqueiro"
+        },
+        {
+          "id": "32c36389-f34f-41e5-8437-2d76251dd67f",
+          "title": "Encanto",
+          "imageCover": "/content/media/banners/encanto.jpeg",
+          "imageTitle": "/content/media/banners/encanto-titulo.png",
+          "slug": "encanto"
+        },
+        {
+          "id": "943dd837-5105-45ab-8c45-e869cff1687f",
+          "title": "The Mandalorian",
+          "imageCover": "/content/media/banners/the-mandalorian.jpeg",
+          "imageTitle": "/content/media/banners/the-mandalorian-titulo.png",
+          "slug": "the-mandalorian"
+        }
+      ],
+
+      "categories": [
+        {
+          "id": "43f435a4-5188-4d29-b14c-9211bb3519de",
+          "title": "Recommended for you",
+          "slug": "recomendados"
+        },
+        {
+          "id": "c0922879-f838-4db7-9a06-def666850718",
+          "title": "Disney",
+          "image": "/content/media/categories/disney.png",
+          "slug": "disney"
+        },
+        {
+          "id": "7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb",
+          "title": "Pixar",
+          "image": "/content/media/categories/pixar.png",
+          "slug": "pixar"
+        },
+        {
+          "id": "99a64432-90bb-4f5a-8452-1ae128504bb2",
+          "title": "Marvel",
+          "image": "/content/media/categories/marvel.png",
+          "slug": "marvel"
+        },
+        {
+          "id": "1aba57cf-2149-4ce1-866c-ca2a5d7ab868",
+          "title": "Star Wars",
+          "image": "/content/media/categories/star-wars.png",
+          "slug": "star-wars"
+        },
+        {
+          "id": "4d5bde1a-6b6d-473a-84be-8bfa364407e5",
+          "title": "National Geographic",
+          "image": "/content/media/categories/national-geographic.png",
+          "slug": "national-geographic"
+        },
+        {
+          "id": "82a1e857-5ccf-4a6d-88a6-83c36dc6812c",
+          "title": "Reinvented Classics",
+          "slug": "classicos"
+        },
+        {
+          "id": "dc74e381-3043-4c4b-abae-db1655543ce7",
+          "title": "Soon",
+          "slug": "em-breve"
+        },
+        {
+          "id": "a4c6bccd-f54b-410f-8aeb-6954608412a3",
+          "title": "Documentaries",
+          "slug": "documentarios"
+        }
+      ],
+      
+      "movies": [
+        {
+          "id": "288186a0-278c-496e-8b02-8e71a96429c3",
+          "url": "https://www.disneyplus.com/movies/102-dalmatians/6Ljtg0iqG58i",
+          "title": "102 Dalmatas",
+          "imageCover": "/content/media/movies/102-dalmatas.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "102-dalmatas"
+        },
+        {
+          "id": "11f6e9cb-c868-489e-9247-677a77d03ea4",
+          "url": "https://www.disneyplus.com/movies/beauty-and-the-beast/227lND2lKmLZ",
+          "title": "A Bela e a Fera",
+          "imageCover": "/content/media/movies/a-bela-e-a-fera.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "a-bela-e-a-fera"
+        },
+        {
+          "id": "36f1ac0c-d354-4867-b9d3-5932fec60684",
+          "title": "A Dama e o Vagabundo",
+          "url": "https://www.disneyplus.com/movies/lady-and-the-tramp/5C1EXtD5Z5xv",
+          "imageCover": "/content/media/movies/a-dama-e-o-vagabundo.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": ""
+        },
+        {
+          "id": "50bda64a-11f4-41f4-b93d-b73fa9dd9682",
+          "title": "A Montanha Enfeitiçada",
+          "url": "https://www.disneyplus.com/movies/race-to-witch-mountain/562vJK3ASSGl",
+          "imageCover": "/content/media/movies/a-montanha-enfeiticada.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "a-montanha-enfeiticada"
+        },
+        {
+          "id": "97bfeffa-c160-4ccb-b497-b17bc463b43b",
+          "title": "Aladdin",
+          "url": "https://www.disneyplus.com/movies/aladdin/57QdIBthImk6",
+          "imageCover": "/content/media/movies/aladdin.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "aladdin"
+        },
+        {
+          "id": "4fd8e37e-97e6-48b4-ab7f-dacb5072ede3",
+          "title": "Alice Através do Espelho",
+          "url": "https://www.disneyplus.com/movies/alice-through-the-looking-glass/43mGCn71WLQo",
+          "imageCover": "/content/media/movies/alice-atraves-do-espelho.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "alice-atraves-do-espelho"
+        },
+        {
+          "id": "62dfc74e-c4eb-4a0a-a595-757ba954bbc6",
+          "title": "Alice no País das Maravilhas",
+          "url": "https://www.disneyplus.com/movies/alice-in-wonderland/3kQxn8vO3FzH",
+          "imageCover": "/content/media/movies/alice-no-pais-das-maravilhas.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "alice-no-pais-das-maravilhas"
+        },
+        {
+          "id": "8900f0a1-4221-4785-a65e-d7e258fd48d6",
+          "title": "Christopher Robin",
+          "url": "https://www.disneyplus.com/movies/christopher-robin/63WMEQHhUylM",
+          "imageCover": "/content/media/movies/christopher-robin.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "christopher-robin"
+        },
+        {
+          "id": "0406fbb4-11c6-4b09-bb51-2e47826dab20",
+          "title": "Cinderela",
+          "url": "https://www.disneyplus.com/movies/cinderella/5LeF5voLnYgB",
+          "imageCover": "/content/media/movies/cinderela.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "cinderela"
+        },
+        {
+          "id": "0061aad7-d85d-402a-982e-b6253e7b4af6",
+          "title": "Cruella",
+          "url": "https://www.disneyplus.com/movies/cruella/2GJTZuO8I01c",
+          "imageCover": "/content/media/movies/cruella.jpeg",
+          "categories": [
+            "82a1e857-5ccf-4a6d-88a6-83c36dc6812c",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "cruella"
+        },
+        {
+          "id": "cd3c2fc9-7f2f-409f-8994-1b7ad730ec06",
+          "title": "Dumbo",
+          "url": "https://www.disneyplus.com/movies/dumbo/3lAXKmGUOnjh",
+          "imageCover": "/content/media/movies/dumbo.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "dumbo"
+        },
+        {
+          "id": "f264385d-2e63-4cc6-86b2-fb850f51934e",
+          "title": "Frankenweenie",
+          "url": "https://www.disneyplus.com/movies/frankenweenie/msxVowQvL18k",
+          "imageCover": "/content/media/movies/frankenweenie.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "frankenweenie"
+        },
+        {
+          "id": "1d69ae84-56b3-43e3-a14f-52779692a698",
+          "title": "Freak Friday",
+          "url": "https://www.disneyplus.com/movies/freaky-friday/3fHmXbluw63h",
+          "imageCover": "/content/media/movies/freak-friday.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "freak-friday"
+        },
+        {
+          "id": "bd4f80df-e435-44e6-a2b0-2e87bc8a495e",
+          "title": "Herbie: Meu Fusca Turbinado",
+          "url": "https://www.disneyplus.com/movies/herbie-fully-loaded/1U9XcXDawIw8",
+          "imageCover": "/content/media/movies/herbie-meu-fusca-turbinado.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "herbie-meu-fusca-turbinado"
+        },
+        {
+          "id": "0d79a6fb-4f72-4511-8096-71cf1bb7ad27",
+          "title": "Malévola",
+          "url": "https://www.disneyplus.com/movies/maleficent/1QAyjfzQe6OK",
+          "imageCover": "/content/media/movies/malevola.jpeg",
+          "categories": [
+            "82a1e857-5ccf-4a6d-88a6-83c36dc6812c",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "malevola"
+        },
+        {
+          "id": "91277874-9f5e-4a20-bc18-099d36ddbcbd",
+          "title": "Malévola: A Dona do Mal",
+          "url": "https://www.disneyplus.com/movies/maleficent-mistress-of-evil/5qvekLRRLhIl",
+          "imageCover": "/content/media/movies/malevola-a-dona-do-mal.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "malevola-a-dona-do-mal"
+        },
+        {
+          "id": "2b54ce5a-84e3-4b29-807d-2af7fcb9f41e",
+          "title": "Mogli: O Menino Lobo",
+          "url": "https://www.disneyplus.com/movies/the-jungle-book/6mPifwCWjpbQ",
+          "imageCover": "/content/media/movies/mogli-o-menino-lobo.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "mogli-o-menino-lobo"
+        },
+        {
+          "id": "8a2ed964-d728-4c74-b9e7-e47751ee7c5e",
+          "title": "Mulan",
+          "url": "https://www.disneyplus.com/movies/mulan/85wmj4hahA0B",
+          "imageCover": "/content/media/movies/mulan.jpeg",
+          "categories": [
+            "82a1e857-5ccf-4a6d-88a6-83c36dc6812c",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "mulan"
+        },
+        {
+          "id": "4d8edc00-654f-46aa-a80a-01a38ffd568d",
+          "title": "O Meu Amigo Dragão",
+          "url": "https://www.disneyplus.com/movies/petes-dragon/H9h3VPxoyCiS",
+          "imageCover": "/content/media/movies/o-meu-amigo-dragao.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "o-meu-amigo-dragao"
+        },
+        {
+          "id": "174ccf5b-c106-42c2-9ba8-255291bf0489",
+          "title": "O Rei Leão",
+          "url": "https://www.disneyplus.com/movies/the-lion-king/1HqwiEcje6Nj",
+          "imageCover": "/content/media/movies/o-rei-leao.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "o-rei-leao"
+        },
+        {
+          "id": "05f51f70-835a-48b8-bbf4-cc7eb1dd6c14",
+          "title": "Operação Cupido",
+          "url": "https://www.disneyplus.com/movies/the-parent-trap/5LsTU243zQ0B",
+          "imageCover": "/content/media/movies/operacao-cupido.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "operacao-cupido"
+        },
+        {
+          "id": "42c0beba-f8dd-4d16-a681-df3a104911da",
+          "title": "Tron: O Legado",
+          "url": "https://www.disneyplus.com/movies/tron-legacy/blTc6WOlDg44",
+          "imageCover": "/content/media/movies/tron-o-legado.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "tron-o-legado"
+        },
+        {
+          "id": "4ed81168-194d-4140-bf34-4602a7abcdd9",
+          "title": "Turner e Hooch",
+          "url": "https://www.disneyplus.com/movies/turner-hooch/7L6KHWI6CXRb",
+          "imageCover": "/content/media/movies/turner-e-hooch.jpeg",
+          "categories": ["82a1e857-5ccf-4a6d-88a6-83c36dc6812c"],
+          "slug": "turner-e-hooch"
+        },
+        {
+          "id": "e39beb50-8935-412a-ae79-8db9dcfe1cab",
+          "title": "Capitã Marvel",
+          "url": "https://www.disneyplus.com/movies/captain-marvel/38xJGlLAQy9a",
+          "imageCover": "/content/media/movies/capita-marvel.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "capita-marvel"
+        },
+        {
+          "id": "fcc99ea5-2ead-4868-a9c6-f62dd56c8bd0",
+          "title": "Capitão América: Guerra Civil",
+          "url": "https://www.disneyplus.com/movies/captain-america-civil-war/4ovfyKnnIBCg",
+          "imageCover": "/content/media/movies/capitao-america-guerra-civil.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "capitao-america-guerra-civil"
+        },
+        {
+          "id": "ca002975-4944-4dc7-8f0c-2add5a44887a",
+          "title": "Capitão América: O Primeiro Vingador",
+          "url": "https://www.disneyplus.com/movies/captain-america-the-first-avenger/6xvB6xZ4r95O",
+          "imageCover": "/content/media/movies/capitao-america-o-primeiro-vingador.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "capitao-america-o-primeiro-vingador"
+        },
+        {
+          "id": "71ea5c6f-df07-4743-b54c-989e038f97e7",
+          "title": "Capitão América: O Soldado Invernal",
+          "url": "https://www.disneyplus.com/movies/captain-america-the-winter-soldier/TVme5whcowSy",
+          "imageCover": "/content/media/movies/capitao-america-soldado-invernal.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "capitao-america-soldado-invernal"
+        },
+        {
+          "id": "3803e74a-adfa-4b7b-9085-d02f721a2364",
+          "title": "Doutor Estranho",
+          "url": "https://www.disneyplus.com/movies/doctor-strange/4GgMJ1aHKHA2",
+          "imageCover": "/content/media/movies/doutor-estranho.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "doutor-estranho"
+        },
+        {
+          "id": "3803e74a-adfa-4b7b-9085-d02f721a2364",
+          "title": "Falcão e o Soldado Invernal",
+          "url": "https://www.disneyplus.com/series/the-falcon-and-the-winter-soldier/4gglDBMx8icA?distributionPartner=google",
+          "imageCover": "/content/media/movies/falcao-e-o-soldado-invernal.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "falcao-e-o-soldado-invernal"
+        },
+        {
+          "id": "02354896-a92a-45e7-a77f-8deae74294f6",
+          "title": "Gavião Arqueiro",
+          "url": "https://www.disneyplus.com/series/hawkeye/11Zy8m9Dkj5l?distributionPartner=google",
+          "imageCover": "/content/media/movies/gaviao-arqueiro.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "gaviao-arqueiro"
+        },
+        {
+          "id": "ab2c60af-1024-42aa-aa81-92efc40f1baa",
+          "title": "Guardiões da Galáxia",
+          "url": "https://www.disneyplus.com/movies/guardians-of-the-galaxy/1S4WM9h3KRR6",
+          "imageCover": "/content/media/movies/guardioes-da-galaxia.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "guardioes-da-galaxia"
+        },
+        {
+          "id": "e0977625-ca2a-4020-89a3-37ab35b7ee85",
+          "title": "Guardiões da Galáxia - Vol 2",
+          "url": "https://www.disneyplus.com/movies/guardians-of-the-galaxy-vol-2/ZdRX4mMbp1gM",
+          "imageCover": "/content/media/movies/guardioes-da-galaxia-vol-2.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "guardioes-da-galaxia-vol-2"
+        },
+        {
+          "id": "3e8c8ca1-8d4f-4a81-860b-89e2f5955191",
+          "title": "Homem de Ferro",
+          "url": "https://www.disneyplus.com/movies/iron-man/6aM2a8mZATiu",
+          "imageCover": "/content/media/movies/homem-de-ferro.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "homem-de-ferro"
+        },
+        {
+          "id": "4913b9a0-33f7-48b3-82d7-87bbd6515793",
+          "title": "Homem de Ferro 2",
+          "url": "https://www.disneyplus.com/movies/iron-man-2/lXjCr9QmGGQJ",
+          "imageCover": "/content/media/movies/homem-de-ferro-2.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "homem-de-ferro-2"
+        },
+        {
+          "id": "077894b9-acd7-4aa7-a676-6070413672a7",
+          "title": "Homem de Ferro 3",
+          "url": "https://www.disneyplus.com/movies/iron-man-3/3s4Ihq7P2c6e",
+          "imageCover": "/content/media/movies/homem-de-ferro-3.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "homem-de-ferro-3"
+        },
+        {
+          "id": "84bc5c5c-5c26-444c-9251-f64f3275bd89",
+          "title": "Homem-Formiga",
+          "url": "https://www.disneyplus.com/movies/ant-man/5c92KVf1zgUX",
+          "imageCover": "/content/media/movies/homem-formiga.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "homem-formiga"
+        },
+        {
+          "id": "fbc601fc-4740-42fa-9c80-40e7811227d3",
+          "title": "Homem-Formiga e Vespa",
+          "url": "https://www.disneyplus.com/movies/ant-man-and-the-wasp/5D7wkVHmlCKU",
+          "imageCover": "/content/media/movies/homem-formiga-e-vespa.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "homem-formiga-e-vespa"
+        },
+        {
+          "id": "6e9920d8-505b-46ee-82e9-6773ebdf9323",
+          "title": "Loki",
+          "url": "https://www.disneyplus.com/series/loki/6pARMvILBGzF?distributionPartner=google",
+          "imageCover": "/content/media/movies/loki.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "loki"
+        },
+        {
+          "id": "5698b8c0-2f72-4fd6-ba11-95742279b171",
+          "title": "Pantera Negra",
+          "url": "https://www.disneyplus.com/movies/black-panther/1GuXuYPj99Ke",
+          "imageCover": "/content/media/movies/pantera-negra.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "pantera-negra"
+        },
+        {
+          "id": "062fc676-d9b1-4dee-a1eb-2468529641bf",
+          "title": "Shang-Chi",
+          "url": "https://www.disneyplus.com/movies/shang-chi-and-the-legend-of-the-ten-rings/5GyV9sf9Y041",
+          "imageCover": "/content/media/movies/shang-chi.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "shang-chi"
+        },
+        {
+          "id": "ac5f1de7-3e20-48e5-9f10-b7e64fee823f",
+          "title": "Thor",
+          "url": "https://www.disneyplus.com/movies/thor/1p4vdKzTuhzr",
+          "imageCover": "/content/media/movies/thor.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "thor"
+        },
+        {
+          "id": "687f2f33-907c-46fa-bb56-799e148f3968",
+          "title": "Thor: O Mundo Sombrio",
+          "url": "https://www.disneyplus.com/movies/thor-the-dark-world/ZHk7aM5xTbW7",
+          "imageCover": "/content/media/movies/thor-o-mundo-sombrio.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "thor-o-mundo-sombrio"
+        },
+        {
+          "id": "4d01f80e-81ee-4fad-a382-37030e6d301a",
+          "title": "Thor: Ragnarok",
+          "url": "https://www.disneyplus.com/movies/marvel-studios-thor-ragnarok/3XqAT8UV8ojS",
+          "imageCover": "/content/media/movies/thor-ragnarok.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "thor-ragnarok"
+        },
+        {
+          "id": "629c6cdc-d019-4b6e-9552-6a38bcc40649",
+          "title": "Vingadores",
+          "url": "https://www.disneyplus.com/movies/marvel-studios-the-avengers/2h6PcHFDbsPy",
+          "imageCover": "/content/media/movies/vingadores.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "vingadores"
+        },
+        {
+          "id": "5f18bccb-d83b-41ed-9727-1b3223536c88",
+          "title": "Vingadores: Era de Ultron",
+          "url": "https://www.disneyplus.com/movies/marvel-studios-avengers-age-of-ultron/76IUxY0rNHzt",
+          "imageCover": "/content/media/movies/vingadores-era-de-ultron.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "vingadores-era-de-ultron"
+        },
+        {
+          "id": "a040a8d4-0981-49bf-9040-007a373c7333",
+          "title": "Vingadores: Guerra Infinita",
+          "url": "https://www.disneyplus.com/movies/marvel-studios-avengers-infinity-war/1WEuZ7H6y39v",
+          "imageCover": "/content/media/movies/vingadores-guerra-infinita.jpeg",
+          "categories": [
+            "99a64432-90bb-4f5a-8452-1ae128504bb2",
+            "43f435a4-5188-4d29-b14c-9211bb3519de"
+          ],
+          "slug": "vingadores-guerra-infinita"
+        },
+        {
+          "id": "813d9389-a98e-423f-8469-45e131ff67ec",
+          "title": "Vingadores: Ultimato",
+          "url": "https://www.disneyplus.com/movies/marvel-studios-avengers-endgame/aRbVJUb2h2Rf",
+          "imageCover": "/content/media/movies/vingadores-ultimato.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "vingadores-ultimato"
+        },
+        {
+          "id": "923b76e7-a022-4384-af51-9921b82faaaa",
+          "title": "Viúva Negra",
+          "url": "https://www.disneyplus.com/movies/black-widow/3VfTap90rwZC",
+          "imageCover": "/content/media/movies/viuva-negra.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "viuva-negra"
+        },
+        {
+          "id": "51d5dc9d-60fb-482d-b2e4-34281b25fd72",
+          "title": "WandaVision",
+          "url": "https://www.disneyplus.com/series/wandavision/4SrN28ZjDLwH?distributionPartner=google",
+          "imageCover": "/content/media/movies/wanda-vision.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "wanda-vision"
+        },
+        {
+          "id": "d3b604ba-a23e-4cec-bf36-cb8692d600d5",
+          "title": "What If...?",
+          "url": "https://www.disneyplus.com/series/what-if/7672ZVj1ZxU9?distributionPartner=google",
+          "imageCover": "/content/media/movies/what-if.jpeg",
+          "categories": ["99a64432-90bb-4f5a-8452-1ae128504bb2"],
+          "slug": "what-if"
+        },
+        {
+          "id": "b96afea3-cb1d-484b-95f1-2a613ab62070",
+          "title": "101 Dalmatas",
+          "url": "https://disneyplus.com/series/what-if/7672ZVj1ZxU9?distributionPartner=google",
+          "imageCover": "/content/media/movies/101-dalmatas.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "101-dalmatas"
+        },
+        {
+          "id": "071c6507-ea6c-403b-acb3-e1a6f640de89",
+          "title": "A Bela Adormecida",
+          "url": "https://disneyplus.com/movies/sleeping-beauty/1rc2EavpNV7U",
+          "imageCover": "/content/media/movies/a-bela-adormecida.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "a-bela-adormecida"
+        },
+        {
+          "id": "cc2f07bf-43f5-488b-a6e6-6191bf207b32",
+          "title": "A Nova Onda do Imperador",
+          "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3jFGExhfWgxg",
+          "imageCover": "/content/media/movies/a-nova-onda-do-imperador.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "a-nova-onda-do-imperador"
+        },
+        {
+          "id": "6d971b63-3004-418b-8ff7-ee85c0e81267",
+          "title": "A Pequena Sereia",
+          "url": "https://www.disneyplus.com/movies/the-little-mermaid/5V7zkeKCcrWo",
+          "imageCover": "/content/media/movies/a-pequena-sereia.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "a-pequena-sereia"
+        },
+        {
+          "id": "70f2533c-340d-497e-829f-00a98a8740bd",
+          "title": "A Princesa e o Sapo",
+          "url": "https://www.disneyplus.com/movies/the-princess-and-the-frog/7TPAcC8QPGpm",
+          "imageCover": "/content/media/movies/a-princesa-e-o-sapo.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "a-princesa-e-o-sapo"
+        },
+        {
+          "id": "540981a7-7400-4c04-9007-862cbebcf2ff",
+          "title": "Aladdin",
+          "url": "https://www.disneyplus.com/movies/aladdin/2SngByljXESE"
+,          "imageCover": "/content/media/movies/aladdin-animation.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "aladdin-animation"
+        },
+        {
+          "id": "216f1e48-8a57-4b22-ac2c-743556f93cbb",
+          "title": "Alice no País das Maravilhas",
+          "url": "https://www.disneyplus.com/movies/alice-in-wonderland/2l0X3WdCxQ4F",
+          "imageCover": "/content/media/movies/alice-no-pais-das-maravilhas-animation.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "alice-no-pais-das-maravilhas-animation"
+        },
+        {
+          "id": "c6846bf5-9d98-43ab-9d34-4f07fc9aa418",
+          "title": "As Aventuras de Ichabod e o Sr. Sapo",
+          "url": "https://disneyplus.com/movies/the-adventures-of-ichabod-and-mr-toad/74sGKrq2Gm6j",
+          "imageCover": "/content/media/movies/as-aventuras-de-ichabod-e-o-sr-sapo.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "as-aventuras-de-ishabod-e-o-sr-sapo"
+        },
+        {
+          "id": "5529a25f-8cfd-4ebd-83ed-92b89ce2ad35",
+          "title": "Bernardo e Bianca",
+          "url": "https://www.disneyplus.com/movies/the-rescuers/5Zm5KWEB4rVz",
+          "imageCover": "/content/media/movies/bernardo-e-bianca.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "bernardo-e-bianca"
+        },
+        {
+          "id": "9e538073-d3c0-438a-8a72-692b14e31831",
+          "title": "Bolt: Supercão",
+          "url": "https://www.disneyplus.com/movies/bolt/3rv7GKMZTggh",
+          "imageCover": "/content/media/movies/bolt-supercao.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "bolt-supercao"
+        },
+        {
+          "id": "4e7f8883-ad89-446b-bde1-b6cb891bcb04",
+          "title": "Detona Ralph",
+          "url": "https://www.disneyplus.com/movies/wreck-it-ralph/QAy54qHICSSA",
+          "imageCover": "/content/media/movies/detona-ralph.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "detona-ralph"
+        },
+        {
+          "id": "89fd0ca8-8a4c-4a92-8a53-ff12ac748421",
+          "title": "Wifi Ralph",
+          "url": "https://www.disneyplus.com/movies/ralph-breaks-the-internet/33T1xWWWLhFR",
+          "imageCover": "/content/media/movies/wifi-ralph.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "wifi-ralph"
+        },
+        {
+          "id": "3874ed87-9056-45f4-b6da-b892dc69361e",
+          "title": "Encanto",
+          "url": "https://www.disneyplus.com/movies/encanto/33q7DY1rtHQH",
+          "imageCover": "/content/media/movies/encanto.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "encanto"
+        },
+        {
+          "id": "6068366e-b41e-4e37-a32f-a992aa149ac6",
+          "title": "Enrolados",
+          "url": "https://www.disneyplus.com/movies/tangled/3V3ALy4SHStq",
+          "imageCover": "/content/media/movies/enrolados.jpeg",
+          "categories": ["c0922879-f838-4db7-9a06-def666850718"],
+          "slug": "enrolados"
+        }
+      ],
+      "userProfiles": [
+        {
+          "id": "9460638b-41d0-41f8-bc81-e09760824577",
+          "name": "Fábio",
+          "avatar": "/content/media/users/avatar/avatar-3.png"
+        },
+        {
+          "id": "b48308b5-95d2-41ad-9008-868ca942b51a",
+          "name": "Fábio",
+          "avatar": "/content/media/users/avatar/avatar-4.png"
+        },
+        {
+          "id": "3e2690ec-d5c6-466b-84b1-d9c6cd21e742",
+          "name": "Fábio",
+          "avatar": "/content/media/users/avatar/avatar-2.png"
+        },
+        {
+          "id": "996151cb-2850-4e2a-90f2-36a3d1ba04e2",
+          "name": "Fábio",
+          "avatar": "/content/media/users/avatar/avatar-5.png"
+        },
+        {
+          "id": "ffd7d1d7-7651-4790-a835-3c2c18ac49a9",
+          "name": "Fábio",
+          "avatar": "/content/media/users/avatar/avatar-1.png"
+        }
+      ]
+    }
+  }

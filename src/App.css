@@ -53,6 +53,10 @@ input::placeholder {
 
 }
 
+.profile p {
+  color: white;
+}
+
 .filmes-container {
   padding: 0 0 0 5%;
   display: flex;
@@ -68,6 +72,8 @@ input::placeholder {
 }
 
 .nome {
-  margin-top: -6%;
-  color: #ffffff00;
+  margin-top: 1%;
+  color: #ffff;
+  /* margin-top: -6%;
+  color: #ffffff00; */
 }

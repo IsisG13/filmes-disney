@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Filmes from "./paginas/filmes.json";import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
+import Filmes from "./paginas/filmes.json";
+import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
 import Logo from "./logo.svg";
 
 function App() {
@@ -8,15 +9,16 @@ function App() {
   const [busca, setBusca] = useState("");
 
   const lowerBusca = typeof busca === "string" ? busca.toLowerCase() : "";
-  const moviesFiltrados = movies.filter((movie) =>
+  let moviesFiltrados = movies.filter((movie) =>
     movie.title.toLowerCase().includes(lowerBusca)
   );
 
   useEffect(() => {
-    setMovies(Filmes.data.movies.filter((movie) =>
-      movie.title.toLowerCase().includes(busca.toLowerCase())
-    ));
-  }, [busca]);
+    const filmesOrdenados = Filmes.data.movies.slice().sort((a, b) =>
+      a.title.localeCompare(b.title)
+    );
+    setMovies(filmesOrdenados);
+  }, []); 
 
   return (
     <div className="App">
@@ -104,10 +106,10 @@ function App() {
       </div>
 
       <div className="filmes-container">
-        {movies && movies.length > 0 ? (
+        {moviesFiltrados && moviesFiltrados.length > 0 ? (
           moviesFiltrados.map((movie) => (
             <div className="filmes" key={movie.id}>
-              <a href={movie.url} target="_blenk">
+              <a href={movie.url} target="_blank">
                 <img src={movie.Iurl} alt={movie.title} />
                 <h4 className="nome">{movie.title}</h4>
               </a>

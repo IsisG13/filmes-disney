@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Filmes from "./paginas/filmes.json";
-import Imagem from "./paginas/movies/a-historia-do-imagineering.jpeg";
-import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
+import Filmes from "./paginas/filmes.json";import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
 import Logo from "./logo.svg";
 
 function App() {
   const [movies, setMovies] = useState([]);
-  const [busca, setBusca] = useState([]);
+  const [busca, setBusca] = useState("");
 
   const lowerBusca = typeof busca === "string" ? busca.toLowerCase() : "";
   const moviesFiltrados = movies.filter((movie) =>
@@ -15,9 +13,10 @@ function App() {
   );
 
   useEffect(() => {
-    setMovies(Filmes.data.movies);
-    console.log(setMovies);
-  }, []);
+    setMovies(Filmes.data.movies.filter((movie) =>
+      movie.title.toLowerCase().includes(busca.toLowerCase())
+    ));
+  }, [busca]);
 
   return (
     <div className="App">

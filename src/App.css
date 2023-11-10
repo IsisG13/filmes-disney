@@ -1,5 +1,6 @@
 .App {
   background: black;
+  /* height: 100vh; */
   background-image: url("./paginas/movies/background.png");
 }
 
@@ -25,11 +26,11 @@
 }
 
 .pesquisas {
-  padding: 1.8% 0 0 0;
+  padding: 0 0 0 0;
   color: white;
   border: 1px solid black;
   background-color: black;
-  margin: -1px 0% 0 0;
+  margin: 32px 0% 0 0;
   width: 3%;
   height: 15px;
 }
@@ -67,5 +68,6 @@ input::placeholder {
 }
 
 .nome {
+  margin-top: -6%;
   color: #ffffff00;
 }

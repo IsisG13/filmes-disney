@@ -360,13 +360,6 @@
   //         "slug": "as-maravillas-dos-estados-unidos"
   //       },
   //       {
-  //         "id": "ab6bcde9-92c0-4cbe-a23a-550f59d5bce4",
-  //         "title": "Baymax",
-  //         "imageCover": "/content/media/movies/baymax.jpeg",
-  //         "categories": ["dc74e381-3043-4c4b-abae-db1655543ce7"],
-  //         "slug": "baymax"
-  //       },
-  //       {
   //         "id": "11249a32-b1be-4d58-9bb8-a7dcb6a0ae19",
   //         "title": "Eternos",
   //         "imageCover": "/content/media/movies/eternos.jpeg",

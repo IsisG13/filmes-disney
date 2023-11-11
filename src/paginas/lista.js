@@ -5,6 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import Cabecalho from "../paginas/cabecalho";
 
 function Lista() {
+  const [perfil, setPerfil] = useState(null);
   const [movies, setMovies] = useState([]);
   const [busca, setBusca] = useState("");
 
@@ -12,6 +13,16 @@ function Lista() {
   const moviesFiltrados = movies.filter((movie) =>
     movie.title.toLowerCase().includes(lowerBusca)
   );
+
+  useEffect(() => {
+    // Escolher aleatoriamente um perfil se existir
+    if (Filmes.userProfiles && Filmes.userProfiles.length > 0) {
+      const randomIndex = Math.floor(
+        Math.random() * Filmes.userProfiles.length
+      );
+      setPerfil(Filmes.userProfiles[randomIndex]);
+    }
+  }, []);
 
   useEffect(() => {
     const filmesOrdenados = Filmes.data.movies
@@ -52,6 +63,15 @@ function Lista() {
           onChange={(ev) => setBusca(ev.target.value)}
           placeholder="SEARCH"
         />
+      </div>
+
+      <div className="perfil">
+        {perfil && (
+          <div className="perfil">
+            <img src={perfil.avatar} alt={perfil.name} />
+            <h4>{perfil.name}</h4>
+          </div>
+        )}
       </div>
 
       <div className="filmes-container">

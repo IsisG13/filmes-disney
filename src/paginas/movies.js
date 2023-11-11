@@ -1,7 +1,7 @@
 import Logo from "../logo.svg";
 import { useEffect, useState } from "react";
 import "../App.css";
-import Filmes from "../paginas/filmes.json"
+import Filmes from "../paginas/filmes.json";
 import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
 import Cabecalho from "./cabecalho";
 
@@ -25,26 +25,28 @@ function App() {
   return (
     <div className="App">
       <div className="cabecalho">
-        <Cabecalho/>
-        <span>
-          <FaSearch
-            style={{
-              fontSize: "15px",
-              color: "#ffffff",
-              backgroundColor: "black",
-              padding: "3%",
-            }}
+        <Cabecalho />
+        <div className="nav-pesquisa">
+          <span>
+            <FaSearch
+              style={{
+                fontSize: "15px",
+                color: "#ffffff",
+                backgroundColor: "black",
+                padding: "3%",
+              }}
+            />
+          </span>
+          <input
+            className="pesquisas"
+            type="text"
+            value={busca}
+            onChange={(ev) => setBusca(ev.target.value)}
+            placeholder="SEARCH"
           />
-        </span>
-        <input
-          className="pesquisas"
-          type="text"
-          value={busca}
-          onChange={(ev) => setBusca(ev.target.value)}
-          placeholder="SEARCH"
-        />
+        </div>
       </div>
-      
+
       <div className="filmes-container">
         {movies && movies.length > 0 ? (
           moviesFiltrados.map((movie) => (

@@ -36,23 +36,25 @@ function App() {
     <div className="App">
       <div className="cabecalho">
         <Cabecalho />
-        <span>
-          <FaSearch
-            style={{
-              fontSize: "15px",
-              color: "#ffffff",
-              backgroundColor: "black",
-              padding: "3%",
-            }}
+        <div className="nav-pesquisa">
+          <span>
+            <FaSearch
+              style={{
+                fontSize: "15px",
+                color: "#ffffff",
+                backgroundColor: "black",
+                padding: "3%",
+              }}
+            />
+          </span>
+          <input
+            className="pesquisas"
+            type="text"
+            value={busca}
+            onChange={(ev) => setBusca(ev.target.value)}
+            placeholder="SEARCH"
           />
-        </span>
-        <input
-          className="pesquisas"
-          type="text"
-          value={busca}
-          onChange={(ev) => setBusca(ev.target.value)}
-          placeholder="SEARCH"
-        />
+        </div>
       </div>
 
       <div className="filmes-container">

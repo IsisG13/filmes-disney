@@ -51,7 +51,7 @@ function Lista() {
 
   return (
     <div className="App">
- <div className="cabecalho-lista">
+      <div className="cabecalho-lista">
         <img src={Logo} alt="disney logo" />
         <span>
           <FaHome
@@ -77,27 +77,27 @@ function Lista() {
         </span>
         <a href="./lista">MY LIST</a>
 
-        <span>
-          <FaSearch
-            style={{
-              fontSize: "15px",
-              color: "#ffffff",
-              backgroundColor: "black",
-              padding: "3%",
-            }}
-          />
-        </span>
-        <input
-          className="pesquisas-lista"
-          type="text"
-          value={busca}
-          onChange={(ev) => setBusca(ev.target.value)}
-          placeholder="SEARCH"
-        />
+          {/* <span>
+            <FaSearch
+              style={{
+                fontSize: "15px",
+                color: "#ffffff",
+                backgroundColor: "black",
+                padding: "3%",
+              }}
+            />
+          </span>
+          <input
+            className="pesquisas-lista"
+            type="text"
+            value={busca}
+            onChange={(ev) => setBusca(ev.target.value)}
+            placeholder="SEARCH"
+          /> */}
       </div>
 
       <div className="perfil">
-      <h3>MINHA LISTA</h3>
+        <h3>MINHA LISTA</h3>
         {userProfile && (
           <div className="perfil" key={userProfile.id}>
             <img src={userProfile.avatar} alt={userProfile.name} />

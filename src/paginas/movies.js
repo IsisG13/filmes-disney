@@ -50,7 +50,7 @@ function App() {
       <div className="filmes-container">
         {movies && movies.length > 0 ? (
           moviesFiltrados.map((movie) => (
-            <div className="filmes" key={movie.id}>
+            <div className="filmes-movie" key={movie.id}>
               <a href={movie.url} target="_blenk">
                 <img src={movie.Iurl} alt={movie.title} />
                 <h4 className="nome">{movie.title}</h4>

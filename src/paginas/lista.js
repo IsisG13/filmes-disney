@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import "../App.css";
+import Logo from "../logo.svg";
 import Filmes from "../paginas/filmes.json";
-import { FaSearch } from "react-icons/fa";
-import Cabecalho from "../paginas/cabecalho";
+import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
+// import Cabecalho from "../paginas/cabecalho";
 
 function Lista() {
-  const [perfil, setPerfil] = useState(null);
+  const [userProfile, setUserProfile] = useState(null);
   const [movies, setMovies] = useState([]);
   const [busca, setBusca] = useState("");
 
@@ -15,37 +16,67 @@ function Lista() {
   );
 
   useEffect(() => {
-    // Escolher aleatoriamente um perfil se existir
-    if (Filmes.userProfiles && Filmes.userProfiles.length > 0) {
-      const randomIndex = Math.floor(
-        Math.random() * Filmes.userProfiles.length
+    if (Filmes.data.userProfiles && Filmes.data.userProfiles.length > 0) {
+      const randomProfileIndex = Math.floor(
+        Math.random() * Filmes.data.userProfiles.length
       );
-      setPerfil(Filmes.userProfiles[randomIndex]);
+      setUserProfile(Filmes.data.userProfiles[randomProfileIndex]);
     }
-  }, []);
 
-  useEffect(() => {
     const filmesOrdenados = Filmes.data.movies
       .slice()
       .sort((a, b) => a.title.localeCompare(b.title));
     setMovies(filmesOrdenados);
   }, []);
 
-  const getFirstMovieByInitialLetter = () => {
-    const firstMovies = {};
-    movies.forEach((movie) => {
-      const initialLetter = movie.title.charAt(0).toUpperCase();
-      if (!firstMovies[initialLetter]) {
-        firstMovies[initialLetter] = movie;
-      }
+  const getMoviesByInitialLetters = () => {
+    const uniqueInitialLetters = Array.from(
+      new Set(movies.map((movie) => movie.title.charAt(0).toUpperCase()))
+    );
+
+    const randomMovies = uniqueInitialLetters.map((letter) => {
+      const moviesWithInitialLetter = movies.filter(
+        (movie) => movie.title.charAt(0).toUpperCase() === letter
+      );
+
+      const randomIndex = Math.floor(
+        Math.random() * moviesWithInitialLetter.length
+      );
+
+      return moviesWithInitialLetter[randomIndex];
     });
-    return Object.values(firstMovies);
+
+    return randomMovies;
   };
 
   return (
     <div className="App">
-      <div className="cabecalho">
-        <Cabecalho />
+ <div className="cabecalho-lista">
+        <img src={Logo} alt="disney logo" />
+        <span>
+          <FaHome
+            style={{
+              fontSize: "15px",
+              color: "#ffffff",
+              backgroundColor: "black",
+              padding: "3%",
+            }}
+          />
+        </span>
+        <a href="/">HOME</a>
+
+        <span>
+          <FaPlus
+            style={{
+              fontSize: "15px",
+              color: "#ffffff",
+              backgroundColor: "black",
+              padding: "3%",
+            }}
+          />
+        </span>
+        <a href="./lista">MY LIST</a>
+
         <span>
           <FaSearch
             style={{
@@ -57,7 +88,7 @@ function Lista() {
           />
         </span>
         <input
-          className="pesquisas"
+          className="pesquisas-lista"
           type="text"
           value={busca}
           onChange={(ev) => setBusca(ev.target.value)}
@@ -66,17 +97,18 @@ function Lista() {
       </div>
 
       <div className="perfil">
-        {perfil && (
-          <div className="perfil">
-            <img src={perfil.avatar} alt={perfil.name} />
-            <h4>{perfil.name}</h4>
+      <h3>MINHA LISTA</h3>
+        {userProfile && (
+          <div className="perfil" key={userProfile.id}>
+            <img src={userProfile.avatar} alt={userProfile.name} />
+            <h2>{userProfile.name}</h2>
           </div>
         )}
       </div>
 
       <div className="filmes-container">
         {moviesFiltrados && moviesFiltrados.length > 0 ? (
-          getFirstMovieByInitialLetter().map((movie) => (
+          getMoviesByInitialLetters().map((movie) => (
             <div className="filmes" key={movie.id}>
               <a href={movie.url} target="_blank" rel="noopener noreferrer">
                 <img src={movie.Iurl} alt={movie.title} />

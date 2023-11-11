@@ -1,10 +1,3 @@
-  //  {
-  //         "id": "8f661868-867e-472d-9c59-9bc728a88906",
-  //         "title": "Fronzen",
-  //         "imageCover": "/content/media/movies/fronzen.jpeg",
-  //         "categories": ["c0922879-f838-4db7-9a06-def666850718"],
-  //         "slug": "fronzen"
-  //       },
   //       {
   //         "id": "fd2ec656-24af-449e-8790-af7e5d75be13",
   //         "title": "Fronzen II",
@@ -18,13 +11,6 @@
   //         "imageCover": "/content/media/movies/hercules.jpeg",
   //         "categories": ["c0922879-f838-4db7-9a06-def666850718"],
   //         "slug": "hercules"
-  //       },
-  //       {
-  //         "id": "75fc72c7-9fc5-4962-8d18-7e2d69c1484b",
-  //         "title": "Lilo & Stitch",
-  //         "imageCover": "/content/media/movies/lilo-e-stitch.jpeg",
-  //         "categories": ["c0922879-f838-4db7-9a06-def666850718"],
-  //         "slug": "lilo-e-stitch"
   //       },
   //       {
   //         "id": "df26b6e9-6bc8-45e9-9a85-410342bc19dc",
@@ -65,20 +51,6 @@
   //         "slug": "tarzan"
   //       },
   //       {
-  //         "id": "03e422f3-32ae-43f3-8501-43d77a41b465",
-  //         "title": "Zootopia",
-  //         "imageCover": "/content/media/movies/zootopia.jpeg",
-  //         "categories": ["c0922879-f838-4db7-9a06-def666850718"],
-  //         "slug": "zootopia"
-  //       },
-  //       {
-  //         "id": "3d1d8aa9-8cc3-4879-92ea-4bc9b6442284",
-  //         "title": "Carros",
-  //         "imageCover": "/content/media/movies/carros.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "carros"
-  //       },
-  //       {
   //         "id": "87e55979-d842-4c19-9e5a-9213514adb0d",
   //         "title": "Carros 2",
   //         "imageCover": "/content/media/movies/carros-2.jpeg",
@@ -91,30 +63,6 @@
   //         "imageCover": "/content/media/movies/carros-3.jpeg",
   //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
   //         "slug": "carros-3"
-  //       },
-  //       {
-  //         "id": "d6ff4e34-20d8-4838-9769-1bf76c12c523",
-  //         "title": "Divertidamente",
-  //         "imageCover": "/content/media/movies/divertidamente.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "divertidamente"
-  //       },
-  //       {
-  //         "id": "3d6ee116-cc2c-4c21-a3a5-e3e16d61c16c",
-  //         "title": "Dois Irmãos",
-  //         "imageCover": "/content/media/movies/dois-irmaos.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "dois-irmaos"
-  //       },
-  //       {
-  //         "id": "59dad3e1-c44a-406d-8f95-d3b8e6201d4f",
-  //         "title": "Luca",
-  //         "imageCover": "/content/media/movies/luca.jpeg",
-  //         "categories": [
-  //           "7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb",
-  //           "43f435a4-5188-4d29-b14c-9211bb3519de"
-  //         ],
-  //         "slug": "luca"
   //       },
   //       {
   //         "id": "79d33f3c-6783-4463-b92d-4df25a9c44b2",
@@ -134,32 +82,11 @@
   //         "slug": "o-bom-dinossauro"
   //       },
   //       {
-  //         "id": "241c366b-9985-4412-a387-b294d3cd2284",
-  //         "title": "Os Incríveis",
-  //         "imageCover": "/content/media/movies/os-incriveis.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "os-incriveis"
-  //       },
-  //       {
   //         "id": "d1270037-4d50-47db-b754-44266052dd36",
   //         "title": "Os Incríveis 2",
   //         "imageCover": "/content/media/movies/os-incriveis-2.jpeg",
   //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
   //         "slug": "os-incriveis-2"
-  //       },
-  //       {
-  //         "id": "2c1d6f5b-cf98-48f0-b709-a6b1c86cc34b",
-  //         "title": "Procurando Nemo",
-  //         "imageCover": "/content/media/movies/procurando-nemo.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "procurando-nemo"
-  //       },
-  //       {
-  //         "id": "07c9297a-1ed1-4896-a3be-7bcdecf02ee0",
-  //         "title": "Procurando Dory",
-  //         "imageCover": "/content/media/movies/procurando-dory.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "procurando-dory"
   //       },
   //       {
   //         "id": "9a89bcec-3441-4831-8df7-544ddce714f8",
@@ -178,69 +105,13 @@
   //         ],
   //         "slug": "soul"
   //       },
-  //       {
-  //         "id": "d38a0dab-207b-405d-a23f-eab4b99e39f1",
-  //         "title": "Toy Story",
-  //         "imageCover": "/content/media/movies/toy-story.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "toy-story"
-  //       },
-  //       {
-  //         "id": "8ea60edf-3ed2-41a4-a8e4-f3e09ac68caf",
-  //         "title": "Toy Story 2",
-  //         "imageCover": "/content/media/movies/toy-story-2.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "toy-story-2"
-  //       },
-  //       {
-  //         "id": "ebdfe0f5-be62-4316-895d-49a942220293",
-  //         "title": "Toy Story 3",
-  //         "imageCover": "/content/media/movies/toy-story-3.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "toy-story-3"
-  //       },
-  //       {
-  //         "id": "579d10c2-0991-41fb-ad32-ab6e8cec79e3",
-  //         "title": "Toy Story 4",
-  //         "imageCover": "/content/media/movies/toy-story-4.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "toy-story-4"
-  //       },
-  //       {
-  //         "id": "355c5394-a9c3-4dfd-9e3a-d143d9304bc8",
-  //         "title": "UP Altas Aventuras",
-  //         "imageCover": "/content/media/movies/up-altas-aventuras.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "up-altas-aventuras"
-  //       },
-  //       {
-  //         "id": "d60d7a62-cba9-4731-a98b-3e026d2db423",
-  //         "title": "Valente",
-  //         "imageCover": "/content/media/movies/valente.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "valente"
-  //       },
-  //       {
-  //         "id": "7590f99f-7f69-49a3-a62c-d49cec59884c",
-  //         "title": "Vida de Inseto",
-  //         "imageCover": "/content/media/movies/vida-de-inseto.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "vida-de-inseto"
-  //       },
-  //       {
-  //         "id": "f6563069-41cf-4e71-9831-c49dabdb85b3",
-  //         "title": "Viva: A Vida é uma Festa",
-  //         "imageCover": "/content/media/movies/viva.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "viva"
-  //       },
-  //       {
-  //         "id": "59de9d71-c047-4a6c-8b74-96275d7c843a",
-  //         "title": "Wall-E",
-  //         "imageCover": "/content/media/movies/wall-e.jpeg",
-  //         "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
-  //         "slug": "wall-e"
-  //       },
+        // {
+        //   "id": "355c5394-a9c3-4dfd-9e3a-d143d9304bc8",
+        //   "title": "UP Altas Aventuras",
+        //   "imageCover": "/content/media/movies/up-altas-aventuras.jpeg",
+        //   "categories": ["7a11d2cc-0ea2-4fb9-bee9-bfcb9e7104bb"],
+        //   "slug": "up-altas-aventuras"
+        // },
   //       {
   //         "id": "2f6f6539-b84f-4a5b-85e3-3dc07b1c9ceb",
   //         "title": "The Mandalorian",
@@ -257,27 +128,6 @@
   //         "imageCover": "/content/media/movies/the-bad-batch.jpeg",
   //         "categories": ["1aba57cf-2149-4ce1-866c-ca2a5d7ab868"],
   //         "slug": "the-bad-batch"
-  //       },
-  //       {
-  //         "id": "984945db-2598-452a-b8ff-24d59a1eaeaa",
-  //         "title": "Star Wars: Rogue One",
-  //         "imageCover": "/content/media/movies/star-wars-rogue-one.jpeg",
-  //         "categories": ["1aba57cf-2149-4ce1-866c-ca2a5d7ab868"],
-  //         "slug": "star-wars-rogue-one"
-  //       },
-  //       {
-  //         "id": "aaba9ccb-2d22-4260-867c-3ed46ce43055",
-  //         "title": "Star Wars: Han Solo",
-  //         "imageCover": "/content/media/movies/star-wars-han-solo.jpeg",
-  //         "categories": ["1aba57cf-2149-4ce1-866c-ca2a5d7ab868"],
-  //         "slug": "star-wars-han-solo"
-  //       },
-  //       {
-  //         "id": "78247978-600e-4919-9e01-e90556c762d5",
-  //         "title": "Star Wars I: A Ameaça Fantasma",
-  //         "imageCover": "/content/media/movies/star-wars-I-a-ameaca-fantasma.jpeg",
-  //         "categories": ["1aba57cf-2149-4ce1-866c-ca2a5d7ab868"],
-  //         "slug": "star-wars-I-a-ameaca-fantasma"
   //       },
   //       {
   //         "id": "8dc76ee8-3427-4d93-b70b-15b1cbe44181",
@@ -359,20 +209,15 @@
   //         "categories": ["dc74e381-3043-4c4b-abae-db1655543ce7"],
   //         "slug": "as-maravillas-dos-estados-unidos"
   //       },
-  //       {
-  //         "id": "11249a32-b1be-4d58-9bb8-a7dcb6a0ae19",
-  //         "title": "Eternos",
-  //         "imageCover": "/content/media/movies/eternos.jpeg",
-  //         "categories": ["dc74e381-3043-4c4b-abae-db1655543ce7"],
-  //         "slug": "eternos"
-  //       },
-  //       {
-  //         "id": "9cf2536a-84c1-4551-8935-00378f16930a",
-  //         "title": "O Livro de Boba Fett",
-  //         "imageCover": "/content/media/movies/o-livro-de-boba-fett.jpeg",
-  //         "categories": ["dc74e381-3043-4c4b-abae-db1655543ce7"],
-  //         "slug": "o-livro-de-boba-fett"
-  //       },
+  //   {
+  //   "id": "cb3e8e09-3f50-407b-b42d-feda65abc5e3",
+  //   "title": "Criaturas Das Profundezas",
+  //   "imageCover": "/content/media/movies/criaturas-das-profundezas.jpeg",
+  //   "categories": [
+  //     "a4c6bccd-f54b-410f-8aeb-6954608412a3"
+  //   ],
+  //   "slug": "criaturas-das-profundezas"
+  // },
   //       {
   //         "id": "b36fb145-f0a7-4b8d-b9e6-c7a1ecc5b0ac",
   //         "title": "Obi Wan Kenobi",
@@ -423,13 +268,6 @@
   //         "slug": "conhecendo-as-esculturas-e-modelagens-dos-filmes"
   //       },
   //       {
-  //         "id": "cb3e8e09-3f50-407b-b42d-feda65abc5e3",
-  //         "title": "Criaturas Das Profundezas",
-  //         "imageCover": "/content/media/movies/criaturas-das-profundezas.jpeg",
-  //         "categories": ["a4c6bccd-f54b-410f-8aeb-6954608412a3"],
-  //         "slug": "criaturas-das-profundezas"
-  //       },
-  //       {
   //         "id": "d8f2daac-eec9-4490-9816-f85103f787e2",
   //         "title": "Disney por Dentro",
   //         "imageCover": "/content/media/movies/disney-por-dentro.jpeg",
@@ -447,32 +285,11 @@
   //         "slug": "duble-de-risco"
   //       },
   //       {
-  //         "id": "2adb5cc5-b0da-424c-889e-2b2d35c5f359",
-  //         "title": "Em Busca do Sonho",
-  //         "imageCover": "/content/media/movies/em-busca-do-sonho.jpeg",
-  //         "categories": ["a4c6bccd-f54b-410f-8aeb-6954608412a3"],
-  //         "slug": "em-busca-do-sonho"
-  //       },
-  //       {
   //         "id": "9ed1d5b0-2bdf-469f-b096-b33e45a22572",
   //         "title": "Frankie e Ollie",
   //         "imageCover": "/content/media/movies/frankie-e-ollie.jpeg",
   //         "categories": ["a4c6bccd-f54b-410f-8aeb-6954608412a3"],
   //         "slug": "frankie-e-ollie"
-  //       },
-  //       {
-  //         "id": "174781cd-62a0-4ef6-aad4-ae89dde79888",
-  //         "title": "High School Musical",
-  //         "imageCover": "/content/media/movies/high-school-musical.jpeg",
-  //         "categories": ["a4c6bccd-f54b-410f-8aeb-6954608412a3"],
-  //         "slug": "high-school-musical"
-  //       },
-  //       {
-  //         "id": "fa19243c-b1b0-49b8-b1ec-a741965bfaef",
-  //         "title": "Howard: Sons de um Gênio",
-  //         "imageCover": "/content/media/movies/howard-sons-de-um-genio.jpeg",
-  //         "categories": ["a4c6bccd-f54b-410f-8aeb-6954608412a3"],
-  //         "slug": "howard-sons-de-um-genio"
   //       },
   //       {
   //         "id": "b12afd6d-1ff7-4a9c-9e96-e455114570cd",
@@ -572,13 +389,6 @@
   //         "slug": "bem-vindos-a-terra"
   //       },
   //       {
-  //         "id": "a97e5ef5-18bf-4805-b368-6cebb7f9875e",
-  //         "title": "Brincando com Tubarões",
-  //         "imageCover": "/content/media/movies/brincando-com-tubaroes.jpeg",
-  //         "categories": ["4d5bde1a-6b6d-473a-84be-8bfa364407e5"],
-  //         "slug": "brincando-com-tubaroes"
-  //       },
-  //       {
   //         "id": "0b078ae7-33d4-463e-a60e-7a0f279e7eb4",
   //         "title": "Destinos Inesperados",
   //         "imageCover": "/content/media/movies/destinos-inesperados.jpeg",
@@ -629,13 +439,6 @@
   //         "imageCover": "/content/media/movies/avatar.jpeg",
   //         "categories": ["43f435a4-5188-4d29-b14c-9211bb3519de"],
   //         "slug": "avatar"
-  //       },
-  //       {
-  //         "id": "67bc3a6d-d19f-4fac-99c6-df4660fcb707",
-  //         "title": "Piratas do Caribe: O Baú da Morte",
-  //         "imageCover": "/content/media/movies/piratas-do-caribe-o-bau-da-morte.jpeg",
-  //         "categories": ["43f435a4-5188-4d29-b14c-9211bb3519de"],
-  //         "slug": "piratas-do-caribe-o-bau-da-morte"
   //       },
   //       {
   //         "id": "b1fc4951-7d08-45dc-9607-c15f2d97ebc4",

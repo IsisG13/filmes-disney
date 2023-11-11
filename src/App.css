@@ -1,5 +1,6 @@
-* {
-  /* height: 100vh; */
+.App {
+  background-size: 100%;
+  background-repeat: repeat-y;
   background-image: url("./paginas/movies/background.png");
 }
 
@@ -73,6 +74,35 @@ input::placeholder {
 }
 
 .nome {
-  margin-top: -9%;
+  margin-top: -9.6%;
   color: #fff0;
+}
+
+.linhas-horizontais {
+  margin-top: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linhas-horizontais > div {
+  border-bottom: 0.2px solid #303139;
+  border-top: 0.9px solid #303139;
+  border-right: 2px solid #303139;
+  border-left: 0.9px solid #303139;
+  box-shadow: 8px 10px 60px #000000;
+  margin-right: 26px;
+}
+
+.linhas-horizontais h3 {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.letras {
+  width: 101%;
+  color: white;
+}
+
+.letras h3 {
+  margin: 3% 0 0 0;
 }

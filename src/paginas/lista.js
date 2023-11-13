@@ -2,13 +2,11 @@ import { useEffect, useState } from "react";
 import "../App.css";
 import Logo from "../logo.svg";
 import Filmes from "../paginas/filmes.json";
-import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
-// import Cabecalho from "../paginas/cabecalho";
-
+import { FaHome, FaPlus } from "react-icons/fa";
 function Lista() {
   const [userProfile, setUserProfile] = useState(null);
   const [movies, setMovies] = useState([]);
-  const [busca, setBusca] = useState("");
+  const [busca] = useState("");
 
   const lowerBusca = typeof busca === "string" ? busca.toLowerCase() : "";
   const moviesFiltrados = movies.filter((movie) =>
@@ -109,7 +107,7 @@ function Lista() {
       <div className="filmes-container">
         {moviesFiltrados && moviesFiltrados.length > 0 ? (
           getMoviesByInitialLetters().map((movie) => (
-            <div className="filmes" key={movie.id}>
+            <div className="filmes-lista" key={movie.id}>
               <a href={movie.url} target="_blank" rel="noopener noreferrer">
                 <img src={movie.Iurl} alt={movie.title} />
                 <h4 className="nome">{movie.title}</h4>

@@ -1,7 +1,8 @@
+import Logo from "../logo.svg";
 import { useEffect, useState } from "react";
 import "../App.css";
 import Filmes from "../paginas/filmes.json";
-import { FaSearch } from "react-icons/fa";
+import { FaFilm, FaHome, FaPlus, FaSearch, FaStar, FaTv } from "react-icons/fa";
 import Cabecalho from "./cabecalho";
 
 function App() {

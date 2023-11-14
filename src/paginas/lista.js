@@ -51,31 +51,31 @@ function Lista() {
     <div className="App">
       <div className="cabecalho-lista">
         <img src={Logo} alt="disney logo" />
-        <span>
-          <FaHome
-            style={{
-              fontSize: "15px",
-              color: "#ffffff",
-              backgroundColor: "black",
-              padding: "3%",
-            }}
-          />
-        </span>
-        <a href="/">HOME</a>
+          <span>
+            <FaHome
+              style={{
+                fontSize: "15px",
+                color: "#ffffff",
+                backgroundColor: "black",
+                padding: "3%",
+              }}
+            />
+          </span>
+          <a href="/">HOME</a>
 
-        <span>
-          <FaPlus
-            style={{
-              fontSize: "15px",
-              color: "#ffffff",
-              backgroundColor: "black",
-              padding: "3%",
-            }}
-          />
-        </span>
-        <a href="./lista">MY LIST</a>
-
-          {/* <span>
+          <span>
+            <FaPlus
+              style={{
+                fontSize: "15px",
+                color: "#ffffff",
+                backgroundColor: "black",
+                padding: "3%",
+              }}
+            />
+          </span>
+          <a href="./lista">MY LIST</a>
+          
+        {/* <span>
             <FaSearch
               style={{
                 fontSize: "15px",

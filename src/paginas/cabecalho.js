@@ -11,7 +11,6 @@ function Cabecalho() {
             style={{
               fontSize: "15px",
               color: "#ffffff",
-              backgroundColor: "black",
               padding: "3%",
             }}
           />
@@ -22,7 +21,6 @@ function Cabecalho() {
             style={{
               fontSize: "15px",
               color: "#ffffff",
-              backgroundColor: "black",
               padding: "3%",
             }}
           />
@@ -33,7 +31,6 @@ function Cabecalho() {
             style={{
               fontSize: "15px",
               color: "#ffffff",
-              backgroundColor: "black",
               padding: "3%",
             }}
           />
@@ -44,7 +41,6 @@ function Cabecalho() {
             style={{
               fontSize: "15px",
               color: "#ffffff",
-              backgroundColor: "black",
               padding: "3%",
             }}
           />
@@ -57,7 +53,6 @@ function Cabecalho() {
             style={{
               fontSize: "15px",
               color: "#ffffff",
-              backgroundColor: "black",
               padding: "3%",
             }}
           />

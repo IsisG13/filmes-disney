@@ -198,8 +198,8 @@ input::placeholder {
 
 .linhas-horizontais > div {
   background-image: none;
-  border-bottom: 0.2px solid #303139;
-  border-top: 0.9px solid #303139;
+  border-bottom: 0.2px solid #30313900;
+  border-top: 0.9px solid #30313900;
   border-right: 2px solid #303139;
   border-left: 0.9px solid #303139;
   box-shadow: 8px 10px 60px #000000;
@@ -440,14 +440,14 @@ input::placeholder {
   }
 
   .linhas-horizontais > div {
-    width: 52%;
+    width: 51%;
     height: 223px;
     background-image: none;
-    border-bottom: 0.2px solid #303139;
-    border-top: 0.9px solid #303139;
-    border-right: 2px solid #303139;
-    border-left: 0.9px solid #303139;
-    box-shadow: -16px 10px 60px #000000;
+    border-bottom: 0.2px solid #30313900;
+    border-top: 0.9px solid #30313900;
+    border-right: 2px solid #30313900;
+    border-left: 0.9px solid #30313900;
+    box-shadow: -16px 10px 60px #00000000;
     margin-right: -26px;
   }
 
